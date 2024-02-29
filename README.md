@@ -1,10 +1,9 @@
 # tareaClase5
  Resolucion de la tarea de la clase 5 en argentina programa
 
-<!-- 
 TAREA 1: crear un formulario donde un usuario pueda ingresar su salario anual.
 cuando el usuario haga click en el botón "calcular", mostrar el salario mensual
-en una caja de texto deshabilitada.  <input type="text" disabled id="salario-mensual"/>
+en una caja de texto deshabilitada. --> <input type="text" disabled id="salario-mensual"/>
 
 
 TAREA 2: En otro archivo html (no Index) y otro archivo js (no tarea-clase-5.js),
@@ -39,5 +38,4 @@ Convertir esos números a un array y:
 1. calcular el promedio y mostrarlo en un <em> pre-creado con el texto "El promedio es..."
 2. obtener el número más pequeño y mostrarlo en un <em> pre-creado con el texto "El número más pequeño es..."
 3. obtener el número más grande y mostrarlo en un <em> pre-creado con el texto "El número más grande es..."
-4. obtener el número que más se repite y mostrarlo en un <em> pre-creado con el texto "El número más frecuente es..." 
--->
+4. obtener el número que más se repite y mostrarlo en un <em> pre-creado con el texto "El número más frecuente es..."
