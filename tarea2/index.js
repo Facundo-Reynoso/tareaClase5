@@ -1,5 +1,5 @@
 function capturarNombre(primerNombre, segundoNombre, apellido){
-    return primerNombre + ' ' + segundoNombre + ' ' + apellido 
+    return `${primerNombre} ${segundoNombre} ${apellido}` 
 }
 
 const btnEnviar = document.querySelector('#enviar')
