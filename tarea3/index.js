@@ -47,7 +47,7 @@ btnCalcularDuracion.onclick = function(){
     let minutosTotales = (sumaMinutos % 60) + Math.floor(sumaSegundos / 60)
     let horasTotales = sumaHoras + Math.floor(sumaMinutos / 60)
 
-    resultadoDuracion.innerText = `El cursado tiene una duración de ${horasTotales} hora(s), ${minutosTotales} minuto(s), ${segundosTotales} segundo(s).`
+    resultadoDuracion.textContent = `El cursado tiene una duración de ${horasTotales} hora(s), ${minutosTotales} minuto(s), ${segundosTotales} segundo(s).`
 
     return false
 }
