@@ -22,6 +22,11 @@ function analizarMenor(){
     return numeroMenor
 }
 
+function analizarMayor(){
+    let numeroMayor = Math.max(...numeros)
+    return numeroMayor
+}
+
 
 
 
