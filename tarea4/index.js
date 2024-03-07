@@ -8,8 +8,6 @@ for(i = 0; i < numeroAleatorio.length; i++){
     numeros.push(Number(numeroAleatorio[i].textContent))
 }
 
-const btnAnalizar = document.querySelector('#boton-analizar')
-
 function analizarPromedio(){
     let acumulador = 0
     for(i = 0; i < numeros.length; i++){
@@ -18,3 +16,13 @@ function analizarPromedio(){
     let promedio = acumulador / numeros.length
     return promedio
 }
+
+function analizarMenor(){
+    let numeroMenor = Math.min(...numeros)
+    return numeroMenor
+}
+
+
+
+
+const btnAnalizar = document.querySelector('#boton-analizar')
