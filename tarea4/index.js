@@ -8,6 +8,8 @@ for(i = 0; i < numeroAleatorio.length; i++){
     numeros.push(Number(numeroAleatorio[i].textContent))
 }
 
+//funciones para analizar los numeros
+
 function analizarPromedio(){
     let acumulador = 0
     for(i = 0; i < numeros.length; i++){
@@ -27,6 +29,29 @@ function analizarMayor(){
     return numeroMayor
 }
 
+function analizarMasRepetido() {
+    let numeroMasRepetido;
+    let repeticiones = 0;
+  
+    for (i = 0; i < numeros.length; i++) {
+      const numeroActual = numeros[i];
+      let conteoActual = 1;
+  
+      
+      for (j = i + 1; j < numeros.length; j++) {
+        if (numeroActual === numeros[j]) {
+          conteoActual++;
+        }
+      }
+  
+      if (conteoActual > repeticiones) {
+        numeroMasRepetido = numeroActual;
+        repeticiones = conteoActual;
+      }
+    }
+  
+    return numeroMasRepetido;
+  }
 
 
 
