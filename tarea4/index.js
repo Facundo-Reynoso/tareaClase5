@@ -53,6 +53,16 @@ function analizarMasRepetido() {
     return numeroMasRepetido;
   }
 
-
-
+//funcion para mostrar los resultados
+  
 const btnAnalizar = document.querySelector('#boton-analizar')
+btnAnalizar.onclick = function(){
+  const promedio = document.querySelector('#promedio')
+  promedio.textContent = `El promedio es ${analizarPromedio()}`
+  const numeroMenor = document.querySelector('#menor')
+  numeroMenor.textContent = `El numero mas pequeño es ${analizarMenor()}`
+  const numeroMayor = document.querySelector('#mayor')
+  numeroMayor.textContent = `El numero mas grande es ${analizarMayor()}`
+  const numeroMasRepetido = document.querySelector('#mas-repetido')
+  numeroMasRepetido.textContent = `El numero mas frecuente es ${analizarMasRepetido()}`
+}
